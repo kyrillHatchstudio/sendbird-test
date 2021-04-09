@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icons-_-Back" data-name="Icons-/-Back" transform="translate(0 24) rotate(-90)">
+    <rect id="bg" width="24" height="24" fill="#fff" opacity="0"/>
+    <path id="back" d="M9.757,9.757V1.126a1.122,1.122,0,1,1,2.243,0v9.713A1.183,1.183,0,0,1,10.838,12H1.126a1.122,1.122,0,1,1,0-2.243Z" transform="translate(3.515 12) rotate(-45)" fill="#fff"/>
+  </g>
+</svg>

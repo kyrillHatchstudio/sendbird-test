@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="b4622879a14c1964b5525f3f454c5b899b38bc05" datatype="html">
+        <source>Forgot password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/login/signin/signin.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bad54b7e3102bf1d60b48976740fdfa433012213" datatype="html">
+        <source>
+            Not registrated yet?
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/login/signin/signin.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28629af803ab8b5f6e995b17d486e6a1527e2a96" datatype="html">
+        <source>Sign Up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/login/signin/signin.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

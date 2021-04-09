@@ -1,0 +1,11 @@
+.button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    & .end-img {
+        width: 48px;
+        height: 48px;
+    }
+}
+

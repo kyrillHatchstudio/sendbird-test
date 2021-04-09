@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.121" height="15.5" viewBox="0 0 16.121 15.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #263041;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="arrow-up" transform="translate(20.061 -4.25) rotate(90)">
+    <line id="Linie_36" data-name="Linie 36" class="cls-1" x1="14" transform="translate(5 12)"/>
+    <path id="Pfad_12" data-name="Pfad 12" class="cls-1" d="M12,19,5,12l7-7"/>
+  </g>
+</svg>

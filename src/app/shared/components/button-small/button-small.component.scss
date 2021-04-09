@@ -1,0 +1,20 @@
+@import '../../../../styles/variables.scss';
+
+button {
+    color: $color-green;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    
+    &:focus {
+        box-shadow: 0 0 1px 1px rgba(17, 196, 176, 0.5);
+    }
+
+    &.grey {
+        color: $color-black;
+        opacity: 0.4;
+    }
+}

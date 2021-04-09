@@ -1,0 +1,17 @@
+<button [type]="submit ? 'submit' : 'button'" class="btn" [ngClass]="{
+    'red': color === 'red',
+    'transparent': color === 'transparent',
+    'greenBorder': color === 'greenBorder',
+    'greenTextOnly': color === 'greenTextOnly',
+    'white': color === 'white',
+    'alignLeft': textAlign === 'left',
+    'width-50': width === 50,
+    'width-100': width === 100,
+    'addPadding': !removePadding,
+    'addUpperCase': !removeAllUppercase,
+    'smallFont': fontSize === 'small',
+    'centeredContent': !showArrow && textAlign === 'center'
+}" (click)="onClickButton($event)" [disabled]="disabled">
+    <span>{{ text }} <ng-content></ng-content></span>
+    <fa-icon *ngIf="showArrow" [icon]="arrow"></fa-icon>
+</button>

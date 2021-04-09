@@ -1,0 +1,26 @@
+.header {
+    padding-top: 20px;
+    background-color: #fff;
+    padding-right: 0 !important;
+}
+
+.arrow-positioner {
+    display: flex;
+    padding-right: 30px;
+
+    &.arrow-right {
+        justify-content: flex-end;
+    }
+
+    & .arrow {
+        height: 17px;
+    }
+}
+
+.padding-wrapper {
+    padding: 14px 24px 0 24px;
+}
+
+.heading {
+    margin-top: 14px;
+}

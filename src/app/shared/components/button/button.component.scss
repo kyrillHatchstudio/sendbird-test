@@ -1,0 +1,68 @@
+@import '../../../../styles/variables.scss';
+
+button {
+    border-radius: 52px;
+    border: 2px solid $color-green;
+    background-color: $color-green;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.06px;
+    color: #fff;
+    white-space: normal;
+    display: inline-flex;
+    justify-content: space-between;
+}
+button:focus {
+    box-shadow: 0 0 1px 1px rgba(17, 196, 176, 0.5);
+}
+
+.addPadding {
+    padding: 17px 25px;
+}
+
+.addUpperCase {
+    text-transform: uppercase;
+}
+
+.smallFont {
+    font-size: 12px;
+}
+
+.red {
+    background-color: $color-red;
+    border-color: $color-red;
+}
+.transparent {
+    background-color: transparent;
+    border-color: $color-black;
+    color: $color-black;
+}
+.greenBorder {
+    background-color: transparent;
+    border-color: $color-green;
+    color: $color-green;
+}
+.greenTextOnly {
+    background-color: transparent;
+    border: none;
+    color: $color-green;
+}
+.white {
+    background-color: #fff;
+    color: $color-black;
+}
+.centeredContent {
+  justify-content: center;
+}
+
+// widths
+.width-50 {
+    width: 50%;
+}
+.width-100 {
+    width: 100%;
+}
+
+.alignLeft {
+    text-align: left;
+}

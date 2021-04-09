@@ -1,0 +1,14 @@
+<div class="waiting" *ngIf="waiting">
+    <app-card-header routeTo="communicate" heading="Waiting for Call"></app-card-header>
+    <div class="spacer"></div>
+    <p class="p" *ngIf="!sendbirdReady">Waiting for authentication done.</p>
+</div>
+
+<div class="main-video-wrapper" [ngClass]="{hidden: waiting}">
+    <video class="main-video" playsinline autoplay #remoteVideo></video>
+    <video class="secondary-video" playsinline muted autoplay #localVideo></video>
+
+    <div class="button-bar-wrapper">
+        <app-button-bar (buttonClicked)="handleButtonClicked($event)"></app-button-bar>
+    </div>
+</div>

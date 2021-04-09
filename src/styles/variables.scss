@@ -1,0 +1,96 @@
+// Global variables
+
+/**
+* COLORS
+*/
+$color-black: #263041;
+$color-green: #11c4b0;
+$color-red: #ff0033;
+$color-blue: #2699fb;
+$color-purple: #6c5f90;
+$color-rose: #a72f3a;
+$color-verdun: #5b7102;
+$color-berry: #954d8d;
+$color-grey: #f0f1f2;
+$color-black-80: rgba(38, 48, 65, 0.8); // black with opacity 0.8
+$color-black-70: rgba(38, 48, 65, 0.7); // black with opacity 0.7
+$color-black-40: rgba(38, 48, 65, 0.4); // black with opacity 0.4
+$color-black-08: rgba(38, 48, 65, 0.08); // black with opacity 0.08
+
+$color-mental: #65d1dd;
+$color-physical: #00B3C8;
+$color-spiritual: #0064da;
+$color-social: #6562c2;
+$color-environmental: #933994;
+$color-economic: #545479;
+
+/**
+* PALETTES
+* Mostly above colors are used
+* Palettes only used when using angular material components (like inputs)
+*/
+$palette-primary: (
+    50 : #e2f8f6,
+    100 : #b8ede7,
+    200 : #88e2d8,
+    300 : #58d6c8,
+    400 : #35cdbc,
+    500 : $color-black,
+    600 : #0fbea9,
+    700 : #0cb6a0,
+    800 : #0aaf97,
+    900 : #05a287,
+    A100 : #cdfff5,
+    A200 : #9affeb,
+    A400 : #67ffe1,
+    A700 : #4dffdc,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$palette-secondary: (
+    50 : #e5f3ff,
+    100 : #bee0fe,
+    200 : #93ccfd,
+    300 : #67b8fc,
+    400 : #47a8fc,
+    500 : #2699fb,
+    600 : #2291fa,
+    700 : #1c86fa,
+    800 : #177cf9,
+    900 : #0d6bf8,
+    A100 : #ffffff,
+    A200 : #f0f5ff,
+    A400 : #bdd4ff,
+    A700 : #a3c4ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);

@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.toast-success {
+    background-color: $color-green;
+}
+
+.toast-error {
+    background-color: $color-red;
+}
+
+.toast-info {
+    background-color: $color-blue;
+}

@@ -1,0 +1,11 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit(form.value)" *ngIf="inputs">
+    <input class="input form-control" *ngFor="let field of inputs" 
+        [type]="field.type"
+        [placeholder]="field.placeholder" 
+        [formControlName]="field.id"/>
+    <div class="spacer"></div>
+
+    <div class="btn-wrapper">
+        <app-button [text]="submitBtn?.text" [width]="100" [color]="submitBtn.color || 'green'" [submit]="true"></app-button>
+    </div>
+</form>

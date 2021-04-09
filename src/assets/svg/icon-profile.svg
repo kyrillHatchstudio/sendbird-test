@@ -1,0 +1,7 @@
+<svg id="Icon_Profile" data-name="Icon Profile" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_519" data-name="Rectangle 519" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="Group_762" data-name="Group 762" transform="translate(4 3)">
+    <path id="Path_241" data-name="Path 241" d="M20,21V19a4,4,0,0,0-4-4H8a4,4,0,0,0-4,4v2" transform="translate(-4 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="Ellipse_73" data-name="Ellipse 73" cx="4" cy="4" r="4" transform="translate(4)" stroke-width="1.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

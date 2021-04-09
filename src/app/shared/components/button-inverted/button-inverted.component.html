@@ -1,0 +1,7 @@
+<button type="button" class="btn" [ngClass]="{
+        'white': color === 'white',
+        'grey': color === 'grey',
+        'small-font': smallFont
+}" [routerLink]="routeTo">
+    {{text}}
+</button>

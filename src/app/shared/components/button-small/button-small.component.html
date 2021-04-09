@@ -1,0 +1,5 @@
+<button #button class="btn" [ngClass]="{
+    'grey': color === 'grey'
+}" (click)="onClickButton($event)">
+    {{text}}
+</button>

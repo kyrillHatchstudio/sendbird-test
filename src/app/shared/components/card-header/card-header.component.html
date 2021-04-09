@@ -1,0 +1,14 @@
+<div class="roundCard header">
+    <div *ngIf="showBack" class="arrow-positioner" [ngClass]="{'arrow-right':arrowDirection==='right'}">
+        <img *ngIf="arrowDirection === 'right'" src="assets/svg/arrow-full-right.svg" alt="next-arrow"
+            class="arrow" (click)="handleBackClick($event)" />
+        <img *ngIf="arrowDirection === 'left'" src="assets/svg/arrow-full-left.svg" alt="back-arrow" class="arrow"
+            (click)="handleBackClick($event)" />
+    </div>
+    <div class="padding-wrapper">
+        <h1 class="h1 heading" *ngIf="heading">{{heading}}</h1>
+        <h3 class="h3 sub-heading" *ngIf="subHeading">{{subHeading}}</h3>
+
+        <ng-content></ng-content>
+    </div>
+</div>
